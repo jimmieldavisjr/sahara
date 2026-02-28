@@ -1,0 +1,119 @@
+Program.cs
+
+Startup/
+	SeedRunner.cs
+
+Extensions/
+	InfrastructureServiceCollectionExtensions.cs
+	ModuleServiceCollectionExtensions.cs
+	
+Controllers/
+	AuthController.cs
+	HealthController.cs
+
+Contracts/
+	Payments/
+		IPaymentGateway.cs
+	Email/
+		IEmailSender.cs
+	Identity/
+	FileStorage/
+		IFileStorage.cs
+	AuditLog/
+		IAuditLogService.cs
+		AuditLogEntry.cs
+		AuditActions.cs
+
+Infrastructure/
+	Payments/
+		StripePaymentGateway.cs
+	Email/
+		SendGridEmailSender.cs
+	Identity/
+		AppUser.cs
+		AppIdentityDbContext.cs
+		TokenService.cs
+		IdentitySeed.cs
+	FileStorage/
+		AzureBlobFileStorage.cs
+	AuditLog/
+		AuditLogDbContext.cs
+		AuditLogService.cs
+
+Common/
+	Pagination/
+		PagedRequest.cs
+		PagedResult.cs
+
+Modules/
+	Customers/
+		Api/
+			CustomersController.cs
+		Domain/
+			Customer.cs
+			Address.cs
+		Application/
+			CustomerService.cs
+			DTOs/
+		Infrastructure/
+			CustomerDbContext.cs
+
+	Vendors/
+		Api/
+			VendorsController.cs
+		Domain/
+			Vendor.cs
+		Application/
+			VendorService.cs
+			DTOs/
+		Infrastructure/
+			VendorDbContext.cs
+
+	Products/
+		Api/
+			ProductsController.cs
+		Domain/
+			Product.cs
+			Category.cs
+		Application/
+			ProductService.cs
+			DTOs/
+		Infrastructure/
+			ProductDbContext.cs
+
+	Cart/
+		Api/
+			CartController.cs
+		Domain/
+			Cart.cs
+			CartItem.cs
+		Application/
+			CartService.cs
+			DTOs/
+		Infrastructure/
+			CartDbContext.cs
+
+	Orders/
+		Api/
+			OrdersController.cs
+		Domain/
+			Order.cs
+			OrderItem.cs
+			OrderStatus.cs
+		Application/
+			OrderService.cs
+			DTOs/
+		Infrastructure/
+			OrderDbContext.cs
+
+	Payments/
+		Api/
+			PaymentsController.cs
+		Domain/
+			Payment.cs
+			PaymentStatus.cs
+		Application/
+			PaymentService.cs
+			DTOs/
+		Infrastructure/
+PaymentDbContext.cs
