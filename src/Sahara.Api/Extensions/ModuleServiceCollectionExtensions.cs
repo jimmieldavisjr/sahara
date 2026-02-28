@@ -1,6 +1,6 @@
 ﻿namespace Sahara.Api.Extensions
 {
-    public class Class
+    public class ModuleServiceCollectionExtensions
     {
     }
 }
