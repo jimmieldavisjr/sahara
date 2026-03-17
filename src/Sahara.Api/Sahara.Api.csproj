@@ -15,7 +15,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Infrastructure\" />
+    <Folder Include="Modules\Customers\" />
+    <Folder Include="Modules\Cart\" />
+    <Folder Include="Modules\Payments\" />
+    <Folder Include="Modules\Orders\" />
+    <Folder Include="Modules\Products\" />
+    <Folder Include="Modules\Vendors\" />
   </ItemGroup>
 
 </Project>
