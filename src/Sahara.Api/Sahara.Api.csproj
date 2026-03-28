@@ -15,12 +15,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Modules\Customers\" />
-    <Folder Include="Modules\Cart\" />
-    <Folder Include="Modules\Payments\" />
-    <Folder Include="Modules\Orders\" />
-    <Folder Include="Modules\Products\" />
-    <Folder Include="Modules\Vendors\" />
+    <Folder Include="Modules\Cart\Application\DTOs\" />
+    <Folder Include="Modules\Customers\Application\DTOs\" />
+    <Folder Include="Modules\Orders\Application\DTOs\" />
+    <Folder Include="Modules\Payments\Application\DTOs\" />
+    <Folder Include="Modules\Products\Application\DTOs\" />
+    <Folder Include="Modules\Vendors\Application\DTOs\" />
   </ItemGroup>
 
 </Project>
